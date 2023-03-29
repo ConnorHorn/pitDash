@@ -1,6 +1,9 @@
 <script>
     import 'twitch-stream-embed';
+    import API from './API.svelte'
 </script>
+
+<API />
 
 <style>
     .twitch-embed {
